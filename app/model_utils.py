@@ -3,8 +3,8 @@ import pandas as pd
 
 # Load artifacts
 model = joblib.load("app/artifacts/xgb_obesity_model.joblib")
-scaler = joblib.load("app/artifacts/scaler .pkl")
-label_encoders = joblib.load("app/artifacts/label_encoders .pkl")
+scaler = joblib.load("app/artifacts/scaler.pkl")
+label_encoders = joblib.load("app/artifacts/label_encoders.pkl")
 
 expected_features = [
     'Gender', 'Age', 'Height', 'Weight', 'family_history_with_overweight',
