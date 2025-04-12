@@ -1,8 +1,6 @@
-fastapi
-uvicorn
-pydantic
-scikit-learn
-xgboost
-joblib
-pandas
-numpy
+fastapi==0.95.1
+uvicorn==0.22.0
+scikit-learn==1.0.2
+pydantic==1.10.2
+numpy==1.21.6
+pickle5==0.0.11  # For compatibility with pickle
